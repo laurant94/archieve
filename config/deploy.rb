@@ -52,7 +52,6 @@ set :keep_releases, 5
 set :rbenv_ruby, '3.0.1'
 set :rbenv_type, :system
 
----------------------------------
 set :log_level, :info
 namespace :deploy do
   desc 'Restart application'

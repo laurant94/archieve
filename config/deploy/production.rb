@@ -60,5 +60,5 @@
 #     # password: "please use keys"
 #   }
 
-server '18.211.102.55.', user: 'app', roles: %w{app db web}
+server '18.211.102.55', user: 'app', roles: %w{app db web}
 set :ssh_options, keys: '/home/wolf/.ssh/id_rsa'
